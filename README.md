@@ -27,6 +27,6 @@ res0: Int = 5
 ## My solutions & Answers
 
 | Question | Difficulty | My Solution | Answer |
-|:-|:-:|:-:|:-:|
+|:-|:-:|:-|:-|
 | 1. Find the last element of a list. | `*` | n/a | http://aperiodic.net/phil/scala/s-99/p01.scala |
 | 2. Find the last but one element of a list. | `*` | n/a | http://aperiodic.net/phil/scala/s-99/p02.scala |
