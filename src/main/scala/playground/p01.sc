@@ -12,10 +12,9 @@ def last[T](l: List[T]): T = l match {
    case x :: xs => last(xs)
 }
 
-
 val ln = List()
 val li = List(1, 1, 2, 3, 5, 8)
 val ls = List("Hello", "World", "Tom")
-// last(ln) // => java.util.NoSuchElementException
-last(li)
-last(ls)
+// (last(ln) == NoSuchElementException) // => java.util.NoSuchElementException
+assert(last(li) == 8)
+assert(last(ls) == "Tom")
