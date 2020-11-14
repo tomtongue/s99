@@ -16,7 +16,10 @@ object p02 {
     try {
       println(penultimate(li).toString)
       println(penultimate(ls))
-      println(penultimate(ln))
+      // println(penultimate(ln))
+
+      println(penulimatAns(li))
+      println(penulimatAns(ls))
     } catch  {
       case nse: NoSuchElementException => nse.printStackTrace()
       case e: Exception => e.printStackTrace()
@@ -25,8 +28,13 @@ object p02 {
 
   }
 
-  def penultimate[T](l: List[T]): T = l match {
-    case x :: xs => if(xs.length >= 2) penultimate(xs) else x
-    case _ => throw new NoSuchElementException
+  def penultimate[T](l: List[T]): T =
+    if(l.length >= 2) l.init.last
+    else throw new NoSuchElementException
+
+  def penulimatAns[T](l: List[T]): T = l match {
+    case x :: _ :: Nil => x // (e.g.) (7, 8, (Nil)) => 7
+    case _ :: xs => penulimatAns(xs) // (e.g) penultimate(5, Lists) => penultimate(Lists)
+    case _ => throw new NoSuchElementException()
   }
 }
