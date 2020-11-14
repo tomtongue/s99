@@ -38,5 +38,5 @@ res0: Int = 2
 | Question | Difficulty | My Solution | Recap | Answer |
 |:-|:-:|:-|:-:|:-|
 | 1. Find the last element of a list. | `*` | [p01.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p01.scala) | n/a | http://aperiodic.net/phil/scala/s-99/p01.scala |
-| 2. Find the last but one element of a list. | `*` | [p02.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p02.scala) | ✅ | http://aperiodic.net/phil/scala/s-99/p02.scala |
+| 2. Find the last but one element of a list. | `*` | [p02.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p02.scala) | [] | http://aperiodic.net/phil/scala/s-99/p02.scala |
 | 3. Find the Kth element of a list. | `*` | [p03.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p03.scala) | ✅ | http://aperiodic.net/phil/scala/s-99/p03.scala | 
