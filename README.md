@@ -41,6 +41,14 @@ scala> length(List(1, 1, 2, 3, 5, 8))
 res0: Int = 6
 ```
 
+### 5. Reverse a list. `*`
+
+```
+// Example
+scala> reverse(List(1, 1, 2, 3, 5, 8))
+res0: List[Int] = List(8, 5, 3, 2, 1, 1)
+```
+
 ## My solutions & Answers
 
 | Question | Difficulty | My Solution | Recap | Answer |
@@ -48,4 +56,5 @@ res0: Int = 6
 | 1. Find the last element of a list. | `*` | [p01.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p01.scala) | n/a | http://aperiodic.net/phil/scala/s-99/p01.scala |
 | 2. Find the last but one element of a list. | `*` | [p02.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p02.scala) | ✅ | http://aperiodic.net/phil/scala/s-99/p02.scala |
 | 3. Find the Kth element of a list. | `*` | [p03.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p03.scala) | ✅ | http://aperiodic.net/phil/scala/s-99/p03.scala |
-| 4. Find the number of elements of a list. | `*` | [p04.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p04.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p04.scala | 
+| 4. Find the number of elements of a list. | `*` | [p04.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p04.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p04.scala |
+| 5. Reverse a list. | `*` | [p05.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p05.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p05.scala |
