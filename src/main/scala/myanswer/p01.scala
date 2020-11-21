@@ -1,4 +1,4 @@
-package answer
+package myanswer
 
 import scala.annotation.tailrec
 

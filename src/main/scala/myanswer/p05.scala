@@ -1,4 +1,10 @@
-package answer
+package myanswer
+
+/* 2020-11-20
+ * Example
+ * scala> reverse(List(1, 1, 2, 3, 5, 8))
+ * res0: List[Int] = List(8, 5, 3, 2, 1, 1)
+ */
 
 object p05 {
   def main(args: Array[String]): Unit = {

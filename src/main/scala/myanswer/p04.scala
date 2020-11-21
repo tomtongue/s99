@@ -1,4 +1,4 @@
-package answer
+package myanswer
 
 object p04 {
   def main(args: Array[String]): Unit = {
