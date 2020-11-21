@@ -11,6 +11,11 @@ object p05 {
 
   def reverse[T](l: List[T]): List[T] = l match {
     case x :: Nil => List(x)
-    case x :: xs => reverse(xs) ++ List(x)
+    case x :: xs => reverse(xs) ++ List(x) // Or :::
   }
 }
+
+/*
+ * List(8, 5, 3, 2, 1, 1)
+ * List(Tom, World, Hello)
+ */
