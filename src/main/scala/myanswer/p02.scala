@@ -31,10 +31,4 @@ object p02 {
   def penultimate[T](l: List[T]): T =
     if(l.length >= 2) l.init.last
     else throw new NoSuchElementException
-
-  def penulimatAns[T](l: List[T]): T = l match {
-    case x :: _ :: Nil => x // (e.g.) (7, 8, (Nil)) => 7
-    case _ :: xs => penulimatAns(xs) // (e.g) penultimate(5, Lists) => penultimate(Lists)
-    case _ => throw new NoSuchElementException()
-  }
 }
