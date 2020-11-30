@@ -10,6 +10,7 @@ Note that `*` means the difficulty of a question. `*` means "easy", `**` means "
 4. Find the number of elements of a list. `*`
 5. Reverse a list. `*`
 6. Find out whether a list is a palindrome. `*`
+7. Flatten a nested list structure. `**`
 
 ## Questions 
 ### 1. Find the last element of a list. `*`
@@ -78,4 +79,4 @@ res0: List[Any] = List(1, 1, 2, 3, 5, 8)
 | 4. Find the number of elements of a list. | `*` | [p04.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p04.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p04.scala |
 | 5. Reverse a list. | `*` | [p05.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p05.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p05.scala |
 | 6. Find out whether a list is a palindrome. | `*` | [p06.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p06.scala) |  [answer/p06.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p06.sc) | http://aperiodic.net/phil/scala/s-99/p06.scala |
-| :bangbang: **7. Flatten a nested list structure.** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p07.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p07.scala |
+| :bangbang: **7. Flatten a nested list structure.** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p07.scala) | [answer/p06.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p07.sc) | http://aperiodic.net/phil/scala/s-99/p07.scala |

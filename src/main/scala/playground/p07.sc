@@ -17,3 +17,12 @@ def flatten(ls: List[Any]): List[Any] = ls flatMap {
 
 val ln = List(List(1, 1), 2, List(3, List(5, 8)))
 flatten(ln)
+
+
+/* -------------------- */
+def flatten2(ls: List[Any]): List[Any] = ls flatMap {
+  case xs: List[_] => flatten(xs)
+  case x => List(x)
+}
+
+flatten2(ln)

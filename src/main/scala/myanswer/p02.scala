@@ -17,9 +17,6 @@ object p02 {
       println(penultimate(li).toString)
       println(penultimate(ls))
       // println(penultimate(ln))
-
-      println(penulimatAns(li))
-      println(penulimatAns(ls))
     } catch  {
       case nse: NoSuchElementException => nse.printStackTrace()
       case e: Exception => e.printStackTrace()
