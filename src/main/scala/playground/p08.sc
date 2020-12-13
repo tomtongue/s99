@@ -1,6 +1,6 @@
 val ls = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
 
-
+// !wrong answer
 def compress[T](ls: List[T]): List[T] = ls match {
   case x :: Nil => List(x)
   case x1 :: x2 :: xs => {
@@ -9,7 +9,7 @@ def compress[T](ls: List[T]): List[T] = ls match {
   }
 }
 
-compress(ls)
+compress(ls) // => res0: List[Symbol] = List('a, 'a, 'b, 'c, 'a, 'd, 'e, 'e)
 
 def compress2[T](ls: List[T]): List[T] = ls match {
   case Nil => Nil
