@@ -26,3 +26,12 @@ def flatten2(ls: List[Any]): List[Any] = ls flatMap {
 }
 
 flatten2(ln)
+
+
+/* --------------------- */
+def flatten3(ls: List[Any]): List[Any] = ls flatMap {
+  case xs: List[Any] => flatten(xs)
+  case x => List(x)
+}
+
+flatten3(ln)

@@ -17,3 +17,12 @@ def compress2[T](ls: List[T]): List[T] = ls match {
 }
 
 compress2(ls)
+
+
+/* ---------------------- */
+def compress3[T](ls: List[T]): List[T] = ls match {
+  case Nil => Nil
+  case x :: xs => x :: compress3(xs dropWhile (_ == x))
+}
+
+compress3(ls)
