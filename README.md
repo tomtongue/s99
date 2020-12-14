@@ -10,9 +10,9 @@ Note that `*` means the difficulty of a question. `*` means "easy", `**` means "
 4. Find the number of elements of a list. `*`
 5. Reverse a list. `*`
 6. Find out whether a list is a palindrome. `*`
-7. Flatten a nested list structure. `**`
-8. Eliminate consecutive duplicates of list elements. `**`
-9. Pack consecutive duplicates of list elements into sublists. `**`
+7. Flatten a nested list structure. `**` -> `flatMap`
+8. Eliminate consecutive duplicates of list elements. `**` -> `dropWhile`
+9. Pack consecutive duplicates of list elements into sublists. `**` -> `span`
 
 ## Questions 
 ### 1. Find the last element of a list. `*`
