@@ -12,6 +12,7 @@ Note that `*` means the difficulty of a question. `*` means "easy", `**` means "
 6. Find out whether a list is a palindrome. `*`
 7. Flatten a nested list structure. `**`
 8. Eliminate consecutive duplicates of list elements. `**`
+9. Pack consecutive duplicates of list elements into sublists. `**`
 
 ## Questions 
 ### 1. Find the last element of a list. `*`
@@ -71,13 +72,21 @@ res0: List[Any] = List(1, 1, 2, 3, 5, 8)
 ```
 
 ### 8. Eliminate consecutive duplicates of list elements. `**`
-
-```
 If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
 
+```
 // Example
 scala> compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
 res0: List[Symbol] = List('a, 'b, 'c, 'a, 'd, 'e)
+```
+
+### 9. Pack consecutive duplicates of list elements into sublists. `**`
+If a list contains repeated elements they should be placed in separate sublists.
+
+```
+// Example
+scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[List[Symbol]] = List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))
 ```
 
 ## My solutions & Answers
@@ -91,4 +100,5 @@ res0: List[Symbol] = List('a, 'b, 'c, 'a, 'd, 'e)
 | 5. Reverse a list. | `*` | [p05.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p05.scala) | Not yet | http://aperiodic.net/phil/scala/s-99/p05.scala |
 | 6. Find out whether a list is a palindrome. | `*` | [p06.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p06.scala) |  [answer/p06.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p06.sc) | http://aperiodic.net/phil/scala/s-99/p06.scala |
 | :bangbang: **7. Flatten a nested list structure.** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p07.scala) | [answer/p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p07.sc) | http://aperiodic.net/phil/scala/s-99/p07.scala |
-| :bangbang: **8. Eliminate consecutive duplicates of list elements.** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p07.scala) | [answer/p08.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p08.sc) | http://aperiodic.net/phil/scala/s-99/p08.scala |
+| :bangbang: **8. Eliminate consecutive duplicates of list elements.** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p08.scala) | [answer/p08.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p08.sc) | http://aperiodic.net/phil/scala/s-99/p08.scala |
+| :bangbang: **9. Pack consecutive duplicates of list elements into sublists. `**`** | `**` | [p07.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/myanswer/p09.scala) | [answer/p08.scala](https://github.com/tomtongue/s99/blob/main/src/main/scala/answer/p09.sc) | http://aperiodic.net/phil/scala/s-99/p09.scala |
