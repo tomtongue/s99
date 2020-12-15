@@ -26,3 +26,12 @@ def compress3[T](ls: List[T]): List[T] = ls match {
 }
 
 compress3(ls)
+
+
+/* ---------------------- */
+def compress4[T](ls: List[T]): List[T] = ls match {
+  case x :: xs => x :: compress4(xs.dropWhile(elem => elem == x))
+  case Nil => Nil
+}
+
+compress4(ls)
